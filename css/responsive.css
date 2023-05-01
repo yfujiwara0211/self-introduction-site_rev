@@ -1,0 +1,119 @@
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+    .case {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+
+    .header-left {
+        margin: 15px 15px 15px 0px;
+    }
+
+    .profile-photo {
+        width: 40%;
+    }
+
+    .profile-photo img{
+        float: left;
+        margin: 60px 60px 20px 0px;
+        width: 100%;
+    }
+
+    .text-content h2{
+        font-size: 20px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    
+    .publications {
+        padding: 10px 0px;
+    }
+
+    .affiliation{
+        font-size: 16px;
+    }
+
+    .carrer{
+        font-size: 16px;
+    }
+
+    .bottom-wrapper {
+        height: 970px;
+    }
+    
+      .top-wrapper h1 {
+        font-size: 40px;
+    }
+    
+      .heading h2 {
+        font-size: 24px;
+    }
+}
+
+/* スマホ向けレイアウト */
+@media all and (max-width: 670px) {
+    .container {
+        width: 400px;
+    }
+    
+    .case {
+        width: 100%;
+        margin-bottom:30px;
+        margin-left: 40px;
+    }
+
+    .header-left {
+        margin: 15px 15px 15px 10px;
+    }
+
+    .profile-photo {
+        width: 80%;
+    }
+
+    .profile-photo img{
+        width: 100%;
+        float: none;
+        margin-left: 40px;
+    }
+
+    .middle-wrapper {
+        height: 850px;
+    }
+
+    .text-content h2{
+        font-size: 20px;
+        padding-top: 0px;
+        padding-bottom:20px;
+        text-align: center;
+    }
+    
+    .publications {
+        padding: 10px 0px;
+    }
+
+    .affiliation{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .carrer{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .bottom-wrapper {
+        height: 970px;
+    }
+    
+    .top-wrapper h1 {
+        font-size: 28px;
+    }
+    
+    .heading h2 {
+        font-size: 20px;
+    }
+}
