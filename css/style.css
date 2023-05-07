@@ -57,15 +57,14 @@ li {
 }
 
 .top-wrapper h1 {
-    font-size: 40px;
+    font-size: 44px;
 }
 
 .profile-photo {
-    width: 22%;
+    width: 25%;
 }
 
 .profile-photo img{
-    float: left;
     margin: 60px 60px 20px 40px;
     width: 100%;
 }
@@ -76,7 +75,9 @@ li {
 }
 
 .text-content {
-    padding-top: 40px;
+    padding-top: 60px;
+    margin-left: 100px;
+    width: 75%;
 }
 
 .name {
@@ -98,7 +99,7 @@ li {
     opacity: 0.8;
     display: inline-block;
     border-radius: 4px;
-  }
+}
   
 .btn:hover {
     opacity: 1;
@@ -120,6 +121,11 @@ li {
 .bottom-wrapper {
     height: 550px;
     background-color: #f7f7f7;
+}
+
+.item {
+    display: flex;
+    justify-content: space-around;
 }
 
 .case {
