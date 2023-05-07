@@ -3,6 +3,7 @@
     .case {
         width: 50%;
         margin-bottom: 50px;
+
     }
 
     .header-left {
@@ -13,40 +14,47 @@
         width: 40%;
     }
 
-    .profile-photo img{
-        float: left;
-        margin: 60px 60px 20px 0px;
-        width: 100%;
+    .text-content {
+        font-size: 95%;
+        padding-top: 20px;
+        width: 60%;
     }
 
     .text-content h2{
-        font-size: 20px;
-        padding-top: 30px;
-        padding-bottom: 20px;
-    }
-    
-    .publications {
-        padding: 10px 0px;
-    }
-
-    .affiliation{
-        font-size: 16px;
-    }
-
-    .carrer{
-        font-size: 16px;
+        font-size:24px;
     }
 
     .bottom-wrapper {
         height: 970px;
     }
     
-      .top-wrapper h1 {
+    .top-wrapper h1 {
         font-size: 40px;
     }
     
-      .heading h2 {
+    .heading h2 {
         font-size: 24px;
+    }
+
+    .name {
+        padding-top:40px;
+        padding-bottom: 10px;
+    }
+    
+    .carrer {
+        padding-top: 10px;
+    }
+    
+    .publications {
+        padding: 5px 0px;
+    }
+    
+    .btn {
+        font: white;
+        padding: 8px 24px;
+        opacity: 0.8;
+        display: inline-block;
+        border-radius: 4px;
     }
 }
 
@@ -70,20 +78,24 @@
         width: 80%;
     }
 
-    .profile-photo img{
-        width: 100%;
-        float: none;
-        margin-left: 40px;
+    .middle-wrapper {
+        height: 900px;
     }
 
-    .middle-wrapper {
-        height: 850px;
+    .item {
+        flex-direction: column;
+    }
+
+    .text-content {
+        padding-top: 60px;
+        margin-left: 50px;
+        width: 75%;
     }
 
     .text-content h2{
         font-size: 20px;
         padding-top: 0px;
-        padding-bottom:20px;
+        padding-bottom:10px;
         text-align: center;
     }
     
